@@ -1,20 +1,20 @@
-# NASA APOD Viewer
+# 🚀 NASA APOD Viewer
 
 Este é um aplicativo Flutter que exibe a "Imagem Astronômica do Dia" (APOD) fornecida pela NASA. Ele utiliza a arquitetura **Clean Architecture** com separação de camadas (Domain, Data e Presentation), gerenciamento de estado com **Bloc**, e implementação de testes utilizando **Mockito** e **bloc_test**.
 
 ## Funcionalidades Principais
 
-- Exibição da imagem ou vídeo do dia com informações relevantes como título, descrição e data.
-- Seleção de data específica para buscar a APOD de um dia anterior.
-- Suporte a mídias dinâmicas (imagem ou player de vídeo).
-- Sistema de favoritos, permitindo salvar APODs localmente.
-- Tela separada para visualização dos favoritos.
-- Interface responsiva com suporte a temas claro e escuro.
-- Cache de imagens para otimização de desempenho.
+- 🖼️ Exibição da imagem ou vídeo do dia com informações relevantes como título, descrição e data.
+- 📅 Seleção de data específica para buscar a APOD de um dia anterior.
+- 🎥 Suporte a mídias dinâmicas (imagem ou player de vídeo).
+- ⭐ Sistema de favoritos, permitindo salvar APODs localmente.
+- 📂 Tela separada para visualização dos favoritos.
+- 🎨 Interface responsiva com suporte a temas claro e escuro.
+- ⚡ Cache de imagens para otimização de desempenho.
 
 ---
 
-## Arquitetura
+## 🛠️ Arquitetura
 
 O projeto segue a **Clean Architecture**, com as seguintes camadas:
 
@@ -34,13 +34,13 @@ O projeto segue a **Clean Architecture**, com as seguintes camadas:
 
 ---
 
-## Gerenciamento de Dependências
+## 🔌 Gerenciamento de Dependências
 
 O projeto utiliza **GetIt** para injeção de dependência, permitindo fácil configuração e escalabilidade.
 
 ---
 
-## Tecnologias e Pacotes Utilizados
+## 📦 Tecnologias e Pacotes Utilizados
 
 - **Dio**: Requisições HTTP.
 - **flutter_bloc**: Gerenciamento de estado.
@@ -53,11 +53,11 @@ O projeto utiliza **GetIt** para injeção de dependência, permitindo fácil co
 
 ---
 
-## Como Executar o Projeto
+## ▶️ Como Executar o Projeto
 
 ### Pré-requisitos
-- Flutter SDK mais recente.
-- Chave de API da NASA obtida em [NASA API](https://api.nasa.gov/).
+- 🛠️ Flutter SDK mais recente.
+- 🔑 Chave de API da NASA obtida em [NASA API](https://api.nasa.gov/).
 
 ### Passos
 1. Clone o repositório:
@@ -75,7 +75,7 @@ O projeto utiliza **GetIt** para injeção de dependência, permitindo fácil co
 
 ---
 
-## Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ```
 lib/
@@ -103,11 +103,11 @@ Os testes foram implementados com **bloc_test** e **Mockito**:
    ```
 
 ### Testes Implementados
-- Testes unitários dos casos de uso e repositórios.
-- Testes de blocos para verificar os estados emitidos em diferentes cenários.
+- ✅ Testes unitários dos casos de uso e repositórios.
+- ✅ Testes de blocos para verificar os estados emitidos em diferentes cenários.
 
 ---
 
-## Licença
+## 📜 Licença
 
 Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
