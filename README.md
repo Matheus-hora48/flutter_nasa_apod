@@ -64,17 +64,11 @@ O projeto utiliza **GetIt** para injeção de dependência, permitindo fácil co
    ```bash
    git clone https://github.com/Matheus-hora48/flutter_nasa_apod.git
    ```
-2. Acesse o diretório do projeto:
-   ```bash
-   cd nasa-apod-viewer
-   ```
-3. Instale as dependências:
+2. Instale as dependências:
    ```bash
    flutter pub get
    ```
-4. Configure sua chave de API:
-   - Adicione sua chave no arquivo `.env` ou diretamente no código na classe responsável pelas requisições.
-5. Execute o aplicativo:
+3. Execute o aplicativo:
    ```bash
    flutter run
    ```
