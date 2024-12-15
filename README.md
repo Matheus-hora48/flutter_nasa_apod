@@ -6,7 +6,7 @@ Este é um aplicativo Flutter que exibe a "Imagem Astronômica do Dia" (APOD) fo
 
 - Exibição da imagem ou vídeo do dia com informações relevantes como título, descrição e data.
 - Seleção de data específica para buscar a APOD de um dia anterior.
-- Suporte a mídias dinâmicas (imagem com zoom e scroll, ou player de vídeo).
+- Suporte a mídias dinâmicas (imagem ou player de vídeo).
 - Sistema de favoritos, permitindo salvar APODs localmente.
 - Tela separada para visualização dos favoritos.
 - Interface responsiva com suporte a temas claro e escuro.
