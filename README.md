@@ -6,7 +6,7 @@ Este é um aplicativo Flutter que exibe a "Imagem Astronômica do Dia" (APOD) fo
 
 - Exibição da imagem ou vídeo do dia com informações relevantes como título, descrição e data.
 - Seleção de data específica para buscar a APOD de um dia anterior.
-- Suporte a mídias dinâmicas (imagem com zoom e scroll, ou player de vídeo).
+- Suporte a mídias dinâmicas (imagem ou player de vídeo).
 - Sistema de favoritos, permitindo salvar APODs localmente.
 - Tela separada para visualização dos favoritos.
 - Interface responsiva com suporte a temas claro e escuro.
@@ -64,17 +64,11 @@ O projeto utiliza **GetIt** para injeção de dependência, permitindo fácil co
    ```bash
    git clone https://github.com/Matheus-hora48/flutter_nasa_apod.git
    ```
-2. Acesse o diretório do projeto:
-   ```bash
-   cd nasa-apod-viewer
-   ```
-3. Instale as dependências:
+2. Instale as dependências:
    ```bash
    flutter pub get
    ```
-4. Configure sua chave de API:
-   - Adicione sua chave no arquivo `.env` ou diretamente no código na classe responsável pelas requisições.
-5. Execute o aplicativo:
+3. Execute o aplicativo:
    ```bash
    flutter run
    ```
